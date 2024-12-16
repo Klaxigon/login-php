@@ -3,13 +3,13 @@ import mysql.connector # type: ignore
 import random
 import string
 
-API_TOKEN = '7118919581:AAGJHzccJtNmmexBJQVt4Zs54DA0KeszNEI' 
+API_TOKEN = '//' 
 bot = telebot.TeleBot(API_TOKEN)
 db = mysql.connector.connect(
-    host="localhost",
-    user="klxigon",             
-    password="MagdeburG1.", 
-    database="bot_database"   
+    host="//",
+    user="//",             
+    password="//", 
+    database="//"   
 )
 cursor = db.cursor()
 
