@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <div class="col-lg-6 login-btm login-text">
                                     <?php if ($error): ?>
                                         <p style="color: red;"><?php echo $error; ?></p>
-                                    <?php endif; ?> # Ersetze mit deinem Bot-Token
+                                    <?php endif; ?> 
                                 </div>
                                 <div class="col-lg-6 login-btm login-button">
                                     <button type="submit" class="btn btn-outline-primary">LOGIN</button>
